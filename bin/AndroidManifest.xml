@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arzin.btrove"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+  	<uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" /> 
+  	<application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Harbour"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.STARTINGPOINT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".EXIT"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.EXIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".About"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Settings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".GoOnline"
+                  android:configChanges="orientation"
+                  android:hardwareAccelerated="true"
+            android:label="@string/app_name"  android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.arzin.btrove.GOONLINE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".His"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.HIS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Fav"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.FAV" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name=".LocalStores"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.arzin.btrove.LOCALSTORES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+    </application>
+
+</manifest>

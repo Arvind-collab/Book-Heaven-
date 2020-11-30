@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/flower"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/introStarting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:shadowColor="#D9FFFFFF"
+        android:shadowRadius="12"
+        android:text="@string/Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/introStarting1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="64dp"
+        android:layout_weight="0.08"
+        android:drawablePadding="11dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8.2dp"
+        android:padding="13dp"
+        android:shadowColor="#D9A48B53"
+        android:shadowRadius="12"
+        android:textScaleX="1.2"
+        android:background="#66F2EFFB"
+        android:text="@string/here_you_can"
+        android:textColor="#4d5b6a"
+        android:textSize="17sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:id="@+id/introStarting2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="0.02"
+        android:paddingTop="25dp"
+        android:textColor="#2B2B43"
+        android:text="@string/loading_"
+        android:textSize="19sp" />
+
+</LinearLayout>

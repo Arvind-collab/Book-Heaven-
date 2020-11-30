@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rweb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3ffffff"
+    android:clickable="true" >
+
+     <FrameLayout
+            android:id="@+id/customViewContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            />
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="286dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.82"
+            android:background="#266F5156"
+            android:ems="10"
+            android:hint="Type your URL here"
+            android:singleLine="true"
+            android:text=" "
+            android:textColor="#46040F"
+            android:textScaleX="1.2" />
+
+        <Button
+            android:id="@+id/bGo"
+            
+            android:layout_weight="8"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#73008729"
+            android:text="Go" />
+    </LinearLayout>  
+    
+     <WebView
+         android:id="@+id/webView1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_above="@+id/bext"   
+         android:layout_below="@+id/topBar"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true" />
+     
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" >
+     
+ </LinearLayout>
+
+ <ProgressBar
+     android:id="@+id/progressBar1"
+     style="?android:attr/progressBarStyleLarge"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+	 android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true" />
+
+ <Button
+     android:id="@+id/bBack"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="60dp"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:background="@drawable/arrow_left"
+     android:text=" " />
+
+ <Button
+     android:id="@+id/bNext"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="60dp"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_toRightOf="@+id/bBack"
+     android:background="@drawable/arrow_right"
+     android:text=" " />
+
+ 
+
+ <Button
+     android:id="@+id/bHistory"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="35dp"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_toRightOf="@+id/bNext"
+     android:background="@drawable/ic_local_library"
+     android:text=" " />
+
+ <Button
+     android:id="@+id/bRefresh"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="35dp"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:background="@drawable/ic_refresh"
+     android:text=" " />
+
+ <Button
+     android:id="@+id/bPrefs"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="35dp"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginLeft="13dp"
+     android:layout_toRightOf="@+id/bRefresh"
+     android:background="@drawable/ic_settings"
+     
+     android:text=" " />
+
+ <Button
+     android:id="@+id/bBookmarks"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="35dp"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginLeft="14dp"
+     android:layout_toRightOf="@+id/bPrefs"
+     android:background="@drawable/ic_favorite_outline"
+     android:padding="2dp"
+     android:text=" " />
+<Button
+     android:id="@+id/bext"
+     style="?android:attr/buttonStyleSmall"
+     android:layout_width="wrap_content"
+     android:layout_height="32dp"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:background="@drawable/ic_exit"
+     android:padding="2dp"
+     android:text=" " />
+</RelativeLayout>

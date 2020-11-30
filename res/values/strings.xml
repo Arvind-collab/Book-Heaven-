@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">B Trove</string>
+    <string name="title_activity_starting_point">B Trove</string>
+    <string name="Welcome">Welcome to The Heaven of Books !</string>
+    <string name="_please_login_to_continue_">" Please Login to continue ... "</string>
+    <string name="register_">Register?</string>
+    <string name="_recover_password_">" Recover Password?"</string>
+    <string name="login">Login</string>
+    <string name="loading_">"Loading ... "</string>
+    <string name="here_you_can">"Here, you can search for books available around your area in various bookstores or in College Library. "</string>
+    <string name="username">Username</string>
+    <string name="info_about">Made to help students of NIT Srinagar get familiar with Books available in locality.</string>
+    <string name="_all_rights_reserved">© All Rights Reserved</string>
+
+</resources>

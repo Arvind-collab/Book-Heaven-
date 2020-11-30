@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ABC2D5"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_marginTop="68dp"
+        android:textScaleX="1.2"
+        android:text="@string/_please_login_to_continue_"
+        android:textColor="#CC00221C"
+        android:fontFamily="Verdana"
+        android:id="@+id/introLogin"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_gravity="center"
+        android:layout_height="45dp"
+        android:ems="15"
+        android:textScaleX="1.2"
+        android:gravity="center"
+        android:inputType="textEmailAddress" 
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content" 
+        android:background="#eee"
+         android:textColor="#D98E9191"
+         android:hint="@string/username">
+
+        <requestFocus
+		android:gravity="center"
+		/>
+    </EditText>
+
+    <EditText
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/editText2"
+        android:textScaleX="1.2"
+        android:layout_height="45dp"
+        android:ems="15"
+        android:textColor="#D98E9191"
+        android:hint="Password"
+        android:inputType="textPassword" 
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content" 
+        android:background="#eee"
+        />
+    
+   
+ <Button
+        android:layout_width="260dp" 
+        android:layout_height="40dp"
+        android:background="#80516B66"
+        android:textScaleX="1.2"
+        android:text="@string/login"
+        android:id="@+id/btLogin"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:textColor="#99260E05"
+        />
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="260dp" 
+        android:layout_height="40dp"
+        android:textScaleX="1.2"
+        android:background="#80516B66"
+        android:text="@string/register_"
+        android:layout_gravity="center"
+        android:id="@+id/btRegister"
+        android:textColor="#99260E05"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textSize="14sp"
+        android:ems="8"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/_recover_password_"
+        android:textColor="#323232"
+        android:fontFamily="OxygenMonoRegular"
+        android:id="@+id/introForgot"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/grid_item_label"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="85dp"
+        android:layout_weight="0.46"
+        android:background="#26031A37" android:lineSpacingExtra="8.2dp"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textColor="#CC010912"
+        android:textScaleX="1.1"
+        android:textSize="18sp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="B Trove v 1.0"
+            android:textColor="#CC010912"
+            android:textSize="21sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Author: Arvind "
+            android:textColor="#CC010912"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/info_about"
+            android:textColor="#CC010912"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:gravity="center"
+            android:text="@string/_all_rights_reserved"
+            android:textColor="#CC010912"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

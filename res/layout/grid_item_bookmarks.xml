@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/grid_item_image_bm"
+        android:layout_width="153dp"
+        android:layout_height="106px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/bookmark_" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="4dp" >
+
+        <TextView
+            android:id="@+id/grid_item_label_bm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6px"
+            android:fontFamily="Arial"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#CC00221C"
+            android:textScaleX="1.1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
